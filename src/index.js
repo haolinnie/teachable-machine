@@ -13,12 +13,12 @@
 // limitations under the License.
 
 import GLOBALS from './config.js';
-import Button from './ui/components/Button.js';
+// import Button from './ui/components/Button.js';
 import InputSection from './ui/modules/InputSection.js';
 import LearningSection from './ui/modules/LearningSection.js';
 import OutputSection from './ui/modules/OutputSection.js';
 import Recording from './ui/modules/Recording';
-import LaunchScreen from './ui/modules/wizard/LaunchScreen.js';
+// import LaunchScreen from './ui/modules/wizard/LaunchScreen.js';
 import BrowserUtils from './ui/components/BrowserUtils';
 
 function init() {
