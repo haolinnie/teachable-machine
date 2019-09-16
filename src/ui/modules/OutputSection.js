@@ -18,7 +18,7 @@ class OutputSection {
 
         const outputs = {
             GIFOutput: new GIFOutput(),
-            SoundOutput: new SoundOutput(document.querySelector('#SoundOutput')),
+            // SoundOutput: new SoundOutput(document.querySelector('#SoundOutput')),
             SpeechOutput: new SpeechOutput()
         };
         GLOBALS.soundOutput = outputs.SoundOutput;

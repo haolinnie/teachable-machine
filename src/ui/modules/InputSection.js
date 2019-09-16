@@ -55,94 +55,94 @@ class InputSection {
         }
         this.element.appendChild(this.arrow.element);
 
-        this.gifs = [];
+        // this.gifs = [];
 
-        let gif1 = new WizardGIFExample('assets/wizard/1.gif');
-        if (GLOBALS.browserUtils.isMobile) {
-            TweenMax.set(gif1.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 40,
-                y: 275
-            });
-        }else {
-            TweenMax.set(gif1.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 70,
-                y: -25
-            });
-        }
-        this.element.appendChild(gif1.element);
-        this.gifs.push(gif1);
+        // let gif1 = new WizardGIFExample('assets/wizard/1.gif');
+        // if (GLOBALS.browserUtils.isMobile) {
+        //     TweenMax.set(gif1.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 40,
+        //         y: 275
+        //     });
+        // }else {
+        //     TweenMax.set(gif1.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 70,
+        //         y: -25
+        //     });
+        // }
+        // this.element.appendChild(gif1.element);
+        // this.gifs.push(gif1);
 
 
-        let gif2 = new WizardGIFExample('assets/wizard/2.gif');
-        if (GLOBALS.browserUtils.isMobile) {
-            TweenMax.set(gif2.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 40,
-                y: 275
-            });
-        }else {
-            TweenMax.set(gif2.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 70,
-                y: -25
-            });
-        }
-        this.element.appendChild(gif2.element);
-        this.gifs.push(gif2);
+        // let gif2 = new WizardGIFExample('assets/wizard/2.gif');
+        // if (GLOBALS.browserUtils.isMobile) {
+        //     TweenMax.set(gif2.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 40,
+        //         y: 275
+        //     });
+        // }else {
+        //     TweenMax.set(gif2.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 70,
+        //         y: -25
+        //     });
+        // }
+        // this.element.appendChild(gif2.element);
+        // this.gifs.push(gif2);
 
-        let gif3 = new WizardGIFExample('assets/wizard/3.gif');
-        if (GLOBALS.browserUtils.isMobile) {
-            TweenMax.set(gif3.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 40,
-                y: 275
-            });
-        }else {
-            TweenMax.set(gif3.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 70,
-                y: -25
-            });
-        }
-        this.element.appendChild(gif3.element);
-        this.gifs.push(gif3);
+        // let gif3 = new WizardGIFExample('assets/wizard/3.gif');
+        // if (GLOBALS.browserUtils.isMobile) {
+        //     TweenMax.set(gif3.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 40,
+        //         y: 275
+        //     });
+        // }else {
+        //     TweenMax.set(gif3.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 70,
+        //         y: -25
+        //     });
+        // }
+        // this.element.appendChild(gif3.element);
+        // this.gifs.push(gif3);
 
-        let gif4 = new WizardGIFExample('assets/wizard/4.gif');
-        if (GLOBALS.browserUtils.isMobile) {
-            TweenMax.set(gif4.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 40,
-                y: 275
-            });
-        }else {
-            TweenMax.set(gif4.element, {
-                rotation: -5,
-                scale: 0.65,
-                x: 70,
-                y: -25
-            });
-        }
-        this.element.appendChild(gif4.element);
-        this.gifs.push(gif4);
+        // let gif4 = new WizardGIFExample('assets/wizard/4.gif');
+        // if (GLOBALS.browserUtils.isMobile) {
+        //     TweenMax.set(gif4.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 40,
+        //         y: 275
+        //     });
+        // }else {
+        //     TweenMax.set(gif4.element, {
+        //         rotation: -5,
+        //         scale: 0.65,
+        //         x: 70,
+        //         y: -25
+        //     });
+        // }
+        // this.element.appendChild(gif4.element);
+        // this.gifs.push(gif4);
 
     }
 
-    showGif(index) {
-        this.gifs[index].show();
-    }
+    // showGif(index) {
+    //     this.gifs[index].show();
+    // }
 
-    hideGif(index) {
-        this.gifs[index].hide();
-    }
+    // hideGif(index) {
+    //     this.gifs[index].hide();
+    // }
 
     ready() {
         if (!GLOBALS.browserUtils.isMobile) {
