@@ -18,7 +18,7 @@ import InputSection from './ui/modules/InputSection.js';
 import LearningSection from './ui/modules/LearningSection.js';
 import OutputSection from './ui/modules/OutputSection.js';
 import Recording from './ui/modules/Recording';
-// import LaunchScreen from './ui/modules/wizard/LaunchScreen.js';
+import LaunchScreen from './ui/modules/wizard/LaunchScreen.js';
 import BrowserUtils from './ui/components/BrowserUtils';
 
 function init() {
@@ -30,7 +30,7 @@ function init() {
 
 	GLOBALS.browserUtils = new BrowserUtils();
 
-	// GLOBALS.launchScreen = new LaunchScreen();
+	GLOBALS.launchScreen = new LaunchScreen();
 	// Opening the learning interface directly
 
 	GLOBALS.learningSection = new LearningSection(document.querySelector('#learning-section'));
@@ -52,14 +52,14 @@ function init() {
 		GLOBALS.isBackFacingCam = true;
 	}
 
-	var element = document.querySelector('.intro');
-	element.style.display = 'none'; 
-	if (GLOBALS.browserUtils.isMobile || GLOBALS.browserUtils.isSafari) {
-		GLOBALS.inputSection.createCamInput();
-		GLOBALS.camInput.start();
-		let event = new CustomEvent('mobileLaunch');
-		window.dispatchEvent(event);
-	}
+	// var element = document.querySelector('.intro');
+	// element.style.display = 'none'; 
+	// if (GLOBALS.browserUtils.isMobile || GLOBALS.browserUtils.isSafari) {
+	// 	GLOBALS.inputSection.createCamInput();
+	// 	GLOBALS.camInput.start();
+	// 	let event = new CustomEvent('mobileLaunch');
+	// 	window.dispatchEvent(event);
+	// }
 }
 
 window.addEventListener('load', init);
